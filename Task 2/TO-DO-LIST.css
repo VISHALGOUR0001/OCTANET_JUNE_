@@ -1,0 +1,100 @@
+*{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #ffffff;
+  }
+  .container {
+    height: 100vh;
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(to top, #000000, #ff0000);
+  }
+  .to_do_list{
+    width: 100%;
+    max-width: 540px;
+    background-color: #000000;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+  }
+  .to_do_list h1{
+    color: antiquewhite;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .to_do_list h1 img{
+    width: 30px;
+    margin-left: 10px;
+  }
+  .row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+    background-color: rgb(169, 169, 169);
+  }
+  input{
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+    font-weight: 14px;
+  }
+  button {
+    padding: 16px 30px;
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #3cff00;
+  }
+  ul li{
+    list-style: none;
+    font-size: 25px;
+    padding: 18px 8px 18px 50px;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+  }
+  ul li span{
+    position: absolute;
+    right: 0;
+    top: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    line-height: 40px;
+    text-align: center;
+    color: #8c8c8c;
+    border-radius: 50%;
+  }
+  ul li span:hover{
+    background: #474747;
+  }
+  .completed {
+    text-decoration: line-through;
+    color: #888;
+    cursor: pointer;
+    font-size: small;
+  }
+  
+  .delete-btn {
+    
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    margin-left: 50%;
+    cursor: pointer;
+  }
